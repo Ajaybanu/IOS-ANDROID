@@ -13,21 +13,26 @@
     },
     "ios": {
       "supportsTablet": true,
-      "package":"com.ajay.nyx"
-
+      "package": "com.ajay.nyx",
+      "bundleIdentifier": "com.ajay.nyx"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package":"com.ajay.nyx"
+      "package": "com.ajay.nyx"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0b1646a4-b067-4d62-b856-4b3d6ccc663e"
+      }
+    }
   }
 }

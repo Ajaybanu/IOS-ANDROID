@@ -22,4 +22,24 @@ const Loader = ({ isLoading }) => {
   );
 };
 
+
+
 export default Loader;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
